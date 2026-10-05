@@ -1,188 +1,233 @@
-# AKAD Engineering & Consulting – Paid-Ads-Strategie (Google + Meta)
+# AKAD Engineering & Consulting – Kundengewinnung über Google Ads & Meta Ads
 
-**Ziel:** B2B-Anfragen und Projekte für akadconsulting.de über Google Ads und Meta Ads gewinnen
-**Datenbasis:** DataForSEO (Google Ads Suchvolumen & CPC, Deutschland/Deutsch, Stand Okt. 2026) und eine Analyse der Website
+**Website:** akadconsulting.de
+**Datenquellen:** DataForSEO (Google-Ads-Suchvolumen, Klickpreise, Suchabsicht, Google-Suchergebnisse – Deutschland, Stand Sept./Okt. 2026), Meta-Werbebibliothek (aktive Anzeigen in DE), Analyse der Website
 **Stand:** 05.10.2026
 
 ---
 
-## 1. Ausgangslage
+## Kurzfassung
+
+1. **Google ist der Hauptkanal, Meta nur für Energie-Themen.** Für Simulation/Konstruktion schaltet auf Meta niemand Anzeigen (einziger Treffer zu „FEM Simulation“: eine Werkstudenten-Stellenanzeige). Bei Batteriespeichern für Gewerbe ist Meta dagegen ein aktiver Kanal.
+2. **„CFD-“ und „FEM-Simulation“ sind überwiegend Informationssuchen** (laut DataForSEO-Suchabsicht: Studierende, Software, Erklärungen). Wer dort breit bucht, verbrennt Budget. Gebucht werden nur Kombinationen mit Kaufabsicht.
+3. **Kaum Konkurrenz bei Google:** Bei „cfd simulation dienstleister“ erscheint keine einzige Anzeige. Oben stehen ein Forschungsinstitut, Verzeichnisse, Reddit und Fiverr. Ein Ingenieurbüro mit klarer Anzeige und Landingpage hat dort wenig Gegner.
+4. **Bei Batteriespeichern ist die Konkurrenz hoch** (Wettbewerb „HIGH“, aktive Meta-Werber wie Commeo, Voltvera und ETECH). Alle verkaufen Speicher. **AKADs Lücke: herstellerunabhängige Planung und Wirtschaftlichkeitsprüfung.**
+5. **Die Website ist noch nicht ads-ready:** keine Referenzen, keine Formulare auf den Leistungsseiten, keine Zahlen, Impressum nicht auffindbar. Das zuerst beheben.
+
+---
+
+## 1. Ausgangslage Website
 
 | Punkt | Befund |
 |---|---|
-| Positionierung | Internationale Ingenieurberatung: Konstruktion, Berechnung, Simulation (FEM/CFD), Energieeffizienz & Batteriespeicher, Mobilität/alt. Kraftstoffe, Chemieingenieurwesen, Verbundwerkstoffe, Ausschreibungen & Vergabe |
-| Claim | „Planen. Simulieren. Optimieren.“ |
-| Organische Sichtbarkeit | **Praktisch null.** DataForSEO findet für akadconsulting.de in DE keine rankenden Keywords und keinen geschätzten Traffic → Paid Ads sind kurzfristig der einzige planbare Kanal |
-| Website-Probleme | Keine Referenzen/Projekte auf der Startseite, keine eigenen Landingpages je Leistung erkennbar, `de.akadconsulting.de` lieferte 503, `/impressum` lieferte 404 (**Impressum-Pfad prüfen, in DE Pflicht – auch für Ads-Freigabe wichtig**) |
-| Problem | 6 Leistungsbereiche auf einer Seite = für Ads zu breit. Wer ein Anliegen sucht („CFD-Simulation Dienstleister“), muss genau dazu eine Seite finden |
-
-**Fazit:** Nicht alle 6 Leistungen gleichzeitig bewerben. Mit **2 Clustern** starten, die echte Kaufabsicht und brauchbares Suchvolumen haben: **Simulation/Berechnung** und **Batteriespeicher/Energie für Gewerbe**.
-
----
-
-## 2. Keyword-Daten (Google Ads, Deutschland)
-
-### Cluster A – Simulation & Berechnung (Kernkompetenz, Empfehlung Nr. 1)
-
-| Keyword | Suchvol./Monat | CPC (€) | Wettbewerb | Bewertung |
-|---|---:|---:|---|---|
-| cfd simulation | 1.600 | 16,15 | niedrig | Hohes Volumen, teils Software-/Studentensuchen → nur mit Negativ-Keywords |
-| fem simulation | 880 | 3,58 | niedrig | günstig, gemischte Absicht |
-| fem analyse | 590 | 5,35 | niedrig | gut |
-| konstruktionsbüro | 480 | 5,68 | mittel | **starke Kaufabsicht** |
-| ingenieurbüro maschinenbau | 260 | 6,56 | mittel | **starke Kaufabsicht** |
-| ingenieurdienstleistungen | 260 | 2–6,70 | niedrig | gut, günstig |
-| strömungssimulation | 210 | 3,98 | mittel | gut |
-| engineering dienstleister | 170 | 8,85 | niedrig | **starke Kaufabsicht** |
-| festigkeitsberechnung | 110 | 1–3,86 | niedrig | günstig, Nische |
-| fem berechnung dienstleister | 20 | **30,54** | mittel | wenig Volumen, aber der hohe CPC zeigt, dass Anfragen hier viel wert sind |
-| ingenieurbüro simulation | 10 | 6,91 | mittel | Long Tail |
-| ingenieurbüro (generisch) | 14.800 | 3,47 | niedrig | **nicht pur buchen**, nur kombiniert („ingenieurbüro + simulation/fem/cfd“) |
-
-→ **Relevantes Volumen mit Kaufabsicht: ca. 4.000–4.500 Suchen/Monat**, CPCs überwiegend 3–9 €. Wenig Wettbewerb – das ist die eigentliche Chance.
-
-### Cluster B – Batteriespeicher & Energieeffizienz Gewerbe/Industrie
-
-| Keyword | Suchvol./Monat | CPC (€) | Wettbewerb | Bewertung |
-|---|---:|---:|---|---|
-| peak shaving | 880 | 7,24 | mittel | **Top**: konkretes Problem von Unternehmen (Lastspitzen) |
-| energieaudit | 720 | 19,56 | mittel | teuer, aber Pflicht für Nicht-KMU (EDL-G/EnEfG), daher hoher Bedarf |
-| großbatteriespeicher | 720 | 3,10 | hoch | teils Investoren/News → Negativ-Keywords |
-| stromspeicher industrie | 210 | 8,42 | hoch | gut |
-| batteriespeicher gewerbe | 110 | 10,01 | hoch | **starke Kaufabsicht** |
-| energieberatung gewerbe | 70 | 6,15 | mittel | gut |
-| batteriespeicher unternehmen | 50 | 9,26 | mittel | gut |
-
-→ Hier ist der Wettbewerb **hoch** (Solar-/Speicheranbieter). AKAD kann sich als **herstellerunabhängiger Planer/Gutachter** abheben: „Wir verkaufen keine Speicher – wir rechnen, ob er sich lohnt.“
-
-### Cluster C – nicht als eigene Suchkampagne starten
-
-| Keyword | Vol. | Grund |
-|---|---:|---|
-| verbundwerkstoffe | 1.300 | überwiegend Info-/Studentensuche (CPC 3,26) → nur als SEO-Content |
-| faserverbund konstruktion / cfk konstruktion | je 10 | zu kleines Volumen → in Cluster A als Long Tail mitnehmen |
-| wasserstoff beratung | 10 | zu kleines Volumen → eher Meta/LinkedIn-Thought-Leadership |
-| Ausschreibung/Vergabe, Verfahrenstechnik-Ingenieurbüro | ~0 messbar | wird über persönliche Kontakte/Netzwerk gekauft, nicht gegoogelt |
+| Angebot | 6 Leistungsbereiche: Energieeffizienz & BESS · Mobilität & alternative Kraftstoffe · Chemie/Verfahrenstechnik/Wärmeübertragung · Verbundwerkstoffe · Konstruktion, FEM & CFD · Ausschreibungen & Vergabe |
+| Branchen | Energie, Mobilität, Chemie, Advanced Materials |
+| Leistungsseiten | vorhanden (`/services/...`), aber ohne Fallbeispiele, Zahlen, Software-Angaben oder Formular. Einziger CTA ist „Kontakt aufnehmen“ |
+| Vertrauen | keine Referenzen, keine Teamfotos/Namen, kein Gründungsjahr, kein Standort |
+| Organische Sichtbarkeit | DataForSEO findet für akadconsulting.de in DE **keine rankenden Keywords** |
+| Rechtliches | Impressum über `/impressum` nicht erreichbar (404). In DE Pflicht, und Google/Meta lehnen Anzeigen ohne Impressum ab |
+| Sprachen | DE, EN, AR (Chance für eine spätere Kampagne in Golfstaaten/MENA) |
 
 ---
 
-## 3. Google-Ads-Setup
+## 2. Keyword-Analyse Google (Deutschland)
 
-### Kampagne 1: „Simulation & Berechnung – Search“ (60 % Budget)
-**Anzeigengruppen (je eine eigene Landingpage):**
-1. **CFD / Strömungssimulation** – `[cfd simulation dienstleister]`, `"cfd simulation"`, `"strömungssimulation"`, `"strömungsberechnung"`
-2. **FEM / Festigkeit** – `"fem berechnung"`, `"fem analyse"`, `"fem simulation"`, `"festigkeitsberechnung"`, `[fem berechnung dienstleister]`
-3. **Konstruktion / Engineering-Dienstleister** – `"konstruktionsbüro"`, `"ingenieurbüro maschinenbau"`, `"engineering dienstleister"`, `"ingenieurdienstleistungen"`, `"cad konstruktion"`
-4. **Verbundwerkstoffe (Long Tail)** – `"faserverbund konstruktion"`, `"cfk konstruktion"`, `"composite engineering"`
+### 2.1 Simulation & Berechnung
 
-**Negativ-Keywords (wichtig, sonst geht das Budget an Studierende):**
-`software, kostenlos, free, download, ansys, openfoam, comsol, solidworks, tutorial, lernen, kurs, studium, bachelorarbeit, masterarbeit, job, jobs, stelle, gehalt, praktikum, werkstudent, pdf, definition, was ist`
+| Keyword | Suchen/Monat | CPC € | Wettbewerb | Suchabsicht | Entscheidung |
+|---|---:|---:|---|---|---|
+| cfd simulation | 1.600 | 16,15 | niedrig | informativ | ⚠️ nur Phrase + viele Ausschlüsse, Gebot deckeln |
+| fem simulation | 880 | 3,58 | niedrig | informativ | ⚠️ wie oben |
+| fem analyse | 590 | 5,35 | niedrig | gemischt | ✅ testen |
+| fem berechnung | 480 | 5,74 | mittel | gemischt | ✅ testen |
+| konstruktionsbüro | 480 | 5,68 | mittel | kommerziell | ✅ **Kern** |
+| ingenieurbüro (für) maschinenbau | 260 | 6,56 | mittel | navig./kommerziell | ✅ **Kern** |
+| ingenieurdienstleistungen | 260 | ~2–7 | niedrig | kommerziell | ✅ **Kern** |
+| strömungssimulation | 210 | 3,98 | mittel | gemischt | ✅ testen |
+| engineering dienstleister | 170 | 8,85 | niedrig | kommerziell | ✅ **Kern** |
+| festigkeitsberechnung | 110 | ~1–4 | niedrig | gemischt | ✅ günstig |
+| fem dienstleister / fem berechnung dienstleister | je 20 | bis 30,54 | mittel | transaktional | ✅ **Kern** (wenig Volumen, aber jede Suche ist ein potenzieller Auftrag) |
+| cfd dienstleister / cfd simulation dienstleister | je 10 | – | niedrig | transaktional | ✅ **Kern** |
+| ingenieurbüro verfahrenstechnik | 30 | 4,78 | mittel | navigational | ✅ Long Tail |
 
-**Anzeigentext-Beispiel (RSA):**
-- Überschriften: `CFD-Simulation als Dienstleistung` · `FEM-Berechnung vom Ingenieurbüro` · `Planen. Simulieren. Optimieren.` · `Ergebnisbericht in 2–4 Wochen`* · `Kostenloses Erstgespräch` · `Prototypkosten senken`
-- Beschreibungen: `Strömung, Wärmeübertragung & Festigkeit simulieren, bevor teure Prototypen entstehen. Jetzt Projekt anfragen.` · `Ingenieure für Konstruktion, FEM & CFD aus einer Hand – vom Konzept bis zur Fertigung.`
+**Warnsignale aus den Daten:** Zu „cfd/fem simulation“ gibt es viele Varianten mit „software“, „free“, „kostenlos“, „ansys“, „jobs“ und „stellenangebote“. Genau diese müssen ausgeschlossen werden.
 
-*Nur verwenden, wenn AKAD diese Lieferzeit tatsächlich zusagen kann.
+### 2.2 Batteriespeicher & Energie für Gewerbe/Industrie
 
-### Kampagne 2: „Batteriespeicher & Energie Gewerbe – Search“ (25 % Budget)
-**Anzeigengruppen:**
-1. **Peak Shaving / Lastspitzen** – `"peak shaving"`, `"lastspitzenkappung"`, `"lastspitzen reduzieren"`
-2. **Speicher Gewerbe/Industrie** – `"batteriespeicher gewerbe"`, `"stromspeicher industrie"`, `"batteriespeicher unternehmen"`, `"großbatteriespeicher planung"`
-3. **Energieaudit / Effizienz** – `"energieaudit"`, `"energieberatung gewerbe"`, `"energieeffizienz unternehmen"` (Gebot begrenzen, CPC ~20 €)
+| Keyword | Suchen/Monat | CPC € | Wettbewerb | Suchabsicht | Entscheidung |
+|---|---:|---:|---|---|---|
+| peak shaving | 880 | 7,24 | mittel | gemischt | ✅ **Kern** |
+| energieaudit | 720 | 19,56 | mittel | gemischt | ⚠️ teuer, nur mit Gebotsgrenze |
+| lastspitzenkappung | ~200–260 (Ausreißer im Mai: 4.400) | 6,20 | mittel | gemischt | ✅ **Kern** |
+| batteriespeicher industrie | 260 | 9,33 | hoch | kommerziell | ✅ **Kern** |
+| energieberatung unternehmen | 170 | 6,04 | hoch | kommerziell | ✅ |
+| industrielle / industrie batteriespeicher | 140 | 9,01 | hoch | kommerziell | ✅ **Kern** |
+| batteriespeicher gewerbe | 110 | 10,01 | hoch | kommerziell | ✅ **Kern** |
+| batteriespeicher großanlagen | 110 | 5,03 | mittel | transaktional | ✅ |
+| energieaudit pflicht | 90 | 6,93 | hoch | informativ | ✅ für den Lead-Magnet |
+| ingenieurbüro energieberatung | 70 | 4,14 | mittel | navigational | ✅ |
+| ingenieurbüro erneuerbare energien | 50 | 4,00 | niedrig | navigational | ✅ (+133 % im Jahresvergleich) |
+| batteriespeicher gewerbe förderung | 30 | 13,80 | hoch | kommerziell | ✅ |
+| batteriespeicher industrie wirtschaftlichkeit | 20 | 5,40 | hoch | kommerziell | ✅ **passt exakt zu AKAD** |
+| großbatteriespeicher / große batteriespeicher | 720 / 210 | 1,6–3,1 | hoch | transaktional/News | ❌ viele Investoren- und Pachtsuchen |
+| bess | 4.400 | 4,82 | niedrig | mehrdeutig | ❌ zu unspezifisch |
 
-**Negativ-Keywords:** `privat, einfamilienhaus, balkonkraftwerk, zuhause, wohnung, aktie, aktien, invest, kaufen günstig, test, testsieger, förderung privat`
+### 2.3 Nicht über Google-Suche bewerben
 
-**Botschaft:** „Herstellerunabhängig: Wir berechnen, ob sich Ihr Speicher lohnt – Lastgang-Analyse inkl. Amortisation.“
+| Thema | Grund |
+|---|---|
+| Verbundwerkstoffe (1.300) / Faserverbund (170) | Info-Suchen, CPC unter 3,30 € → SEO-Ratgeber statt Anzeigen |
+| CFK-/Faserverbund-Konstruktion | je ca. 10 Suchen → als Long Tail in Kampagne 1 |
+| Wasserstoff-Beratung, alternative Kraftstoffe | ca. 10 Suchen → LinkedIn/Fachartikel |
+| Ausschreibungen & Vergabe | kein messbares Suchvolumen → Netzwerk/Direktansprache |
+| CO₂-Bilanz Unternehmen | 30 Suchen, CPC 22 € → nur als Zusatz-Keyword |
 
-### Kampagne 3: Remarketing (Display/Demand Gen, 15 % Budget)
-Website-Besucher der letzten 90 Tage → Case Studies, Whitepaper, „Erstgespräch buchen“.
+---
+
+## 3. Wettbewerb
+
+**Google (Suche „cfd simulation dienstleister“):** keine Anzeigen. In den organischen Treffern stehen IUTA (Institut), solids-recycling-technik.de, Metoree (Verzeichnis), L&T Technology Services (CAE/CFD), Reddit, ensun.io (Verzeichnis), CFD Schuck Ingenieurgesellschaft, HiTech CFD (Indien) und Fiverr.
+→ Ein deutsches Ingenieurbüro mit eigener Anzeige plus Landingpage ist dort praktisch allein.
+
+**Meta (aktive Anzeigen „Batteriespeicher Gewerbe“, DE, ca. 40 Anzeigen):**
+
+| Werbetreibender | Aufhänger |
+|---|---|
+| Commeo Systems | „Netzanschluss zu klein?“ · „Lohnt sich ein Speicher für Sie?“ |
+| Voltvera | „Batteriespeicher für Industrie & Gewerbe“ |
+| ETECH Elektrotechnik | „Kostenlos Stromersparnis berechnen lassen“ |
+| ABAO Energy, Aurivolt, DG-Bess, Batteriespeicher-Pacht.de | Flächenpacht für Großspeicher („Bis zu 1.500 € Pacht pro Jahr“) |
+
+→ **Was funktioniert:** problemorientierte Fragen („Netzanschluss zu klein?“) und kostenlose Berechnungen.
+→ **AKADs Abgrenzung:** Alle anderen wollen einen Speicher verkaufen oder Fläche pachten. AKAD verkauft keine Hardware und kann sagen: **„Bevor Sie kaufen: Unabhängige Wirtschaftlichkeitsprüfung vom Ingenieurbüro.“**
+
+**Meta (aktive Anzeigen „FEM Simulation“, DE):** nur 1 Treffer (Stellenanzeige). Simulation wird auf Meta nicht beworben, also keine kalte Meta-Werbung für dieses Thema.
+
+---
+
+## 4. Google-Ads-Kampagnen
+
+### Kampagne G1 – „Engineering & Simulation“ (ca. 50 % Google-Budget)
+
+| Anzeigengruppe | Keywords (Phrase/Exact) | Landingpage |
+|---|---|---|
+| Engineering-Dienstleister | "konstruktionsbüro", "ingenieurbüro maschinenbau", "engineering dienstleister", "ingenieurdienstleistungen", "konstruktion dienstleister" | /engineering-dienstleister |
+| FEM / Festigkeit | "fem berechnung", "fem analyse", "festigkeitsberechnung", [fem dienstleister], [fem berechnung dienstleister] | /fem-berechnung |
+| CFD / Strömung | "strömungssimulation", [cfd dienstleister], [cfd simulation dienstleister], "cfd simulation" (Gebot max. 6 €) | /cfd-simulation |
+| Verfahrenstechnik / Composite | "ingenieurbüro verfahrenstechnik", "wärmeübertragung berechnung", "faserverbund konstruktion", "cfk konstruktion" | /verfahrenstechnik, /composite |
+
+**Ausschlussliste (Kampagnenebene):**
+`software, programm, kostenlos, free, freeware, download, online, ansys, openfoam, comsol, abaqus, solidworks, fusion, tutorial, lernen, kurs, schulung, studium, uni, vorlesung, bachelorarbeit, masterarbeit, pdf, bedeutung, was ist, definition, job, jobs, stellenangebote, stelle, gehalt, werkstudent, praktikum, ausbildung, fiverr`
+
+**Anzeigentexte (responsive Suchanzeige):**
+- Überschriften: `FEM-Berechnung vom Ingenieurbüro` · `CFD-Strömungssimulation beauftragen` · `Engineering-Dienstleister DACH` · `Simulieren statt Prototypen bauen` · `Planen. Simulieren. Optimieren.` · `Kostenloses Erstgespräch` · `Angebot in 48 h`*
+- Beschreibungen: `Festigkeit, Strömung & Wärmeübertragung berechnen, bevor teure Prototypen entstehen. Mit Bericht & Handlungsempfehlung.` · `Konstruktion, FEM & CFD aus einer Hand – für Maschinenbau, Energie, Chemie & Mobilität. Jetzt Projekt anfragen.`
+
+*Nur verwenden, wenn AKAD das intern zusagen kann.
+
+### Kampagne G2 – „Batteriespeicher & Energie Gewerbe“ (ca. 35 % Google-Budget)
+
+| Anzeigengruppe | Keywords | Landingpage |
+|---|---|---|
+| Peak Shaving / Lastspitzen | "peak shaving", "lastspitzenkappung", "lastspitzen reduzieren", "leistungspreis senken" | /peak-shaving |
+| Speicher Industrie/Gewerbe | "batteriespeicher industrie", "industrielle batteriespeicher", "batteriespeicher gewerbe", "batteriespeicher unternehmen", "batteriespeicher großanlagen", "batteriespeicher industrie wirtschaftlichkeit", "batteriespeicher gewerbe förderung" | /batteriespeicher-gewerbe |
+| Energieberatung / Audit | "energieberatung unternehmen", "ingenieurbüro energieberatung", "ingenieurbüro erneuerbare energien", "energieaudit" (max. 10 €), "energieaudit pflicht" | /energieaudit |
+
+**Ausschlussliste:** `privat, einfamilienhaus, eigenheim, balkonkraftwerk, wohnung, mieter, pacht, verpachten, fläche, aktie, aktien, invest, fonds, test, testsieger, gebraucht, ebay, kleinanzeigen, jobs`
+
+**Positionierung im Anzeigentext:**
+`Herstellerunabhängig – wir verkaufen keine Speicher.` · `Lohnt sich Ihr Batteriespeicher? Wir rechnen es nach.` · `Lastgang-Analyse inkl. Amortisation & Förderung`
+
+### Kampagne G3 – Remarketing (ca. 15 % Google-Budget)
+Website-Besucher der letzten 90 Tage → Demand-Gen/Display mit Fallbeispielen und Simulationsbildern, CTA „Erstgespräch“.
 
 ### Einstellungen
-- **Gebotsstrategie:** Start mit *Klicks maximieren* + CPC-Obergrenze (z. B. 8 €), nach ≥ 30 Conversions auf *Conversions maximieren / Ziel-CPA*
-- **Region:** DACH (Start DE + AT + CH); der arabische Markt später als eigene Kampagne (die Website ist bereits auf Arabisch)
-- **Zeitplan:** Mo–Fr 7–19 Uhr (B2B)
-- **Geräte:** Desktop bevorzugen (Ingenieure recherchieren am Arbeitsplatz)
-- **Erweiterungen:** Sitelinks je Leistung, Callouts („Herstellerunabhängig“, „FEM & CFD“, „DACH & international“), Lead-Formular-Erweiterung, Anruferweiterung
+- **Gebote:** Start mit „Klicks maximieren“ + Max-CPC 8 € (G1) bzw. 10 € (G2); nach ca. 30 Conversions auf „Conversions maximieren“ bzw. Ziel-CPA
+- **Region:** DE + AT + CH; Arabisch/MENA später als eigener Test
+- **Zeiten:** Mo–Fr, 7–19 Uhr
+- **Geräte:** Fokus Desktop
+- **Erweiterungen:** Sitelinks je Leistung, Callouts („Herstellerunabhängig“, „FEM · CFD · CAD“, „DACH & international“), Lead-Formular, Anruf
 
 ---
 
-## 4. Meta-Ads-Setup (Facebook/Instagram)
+## 5. Meta-Ads-Kampagnen (nur Energie + Remarketing)
 
-Meta hat **keine Suchabsicht**. Bei B2B-Engineering eignet es sich nur für zwei Dinge: **Remarketing** und **Lead-Magnet-Kampagnen**. Kalte Zielgruppen nur mit Angebot, nie mit „Wir sind ein Ingenieurbüro“.
+### M1 – Lead-Magnet „Speicher-Check vom Ingenieurbüro“ (Ziel: Leads, Instant Form)
+- **Angebot:** Kunde lädt seinen Lastgang hoch oder nennt Jahresverbrauch und Spitzenlast. AKAD liefert eine kurze Einschätzung, ob sich Peak Shaving bzw. ein Speicher lohnt, herstellerunabhängig.
+- **Hooks (abgeleitet aus dem, was bei Wettbewerbern läuft, aber neutral):**
+  - „Speicher-Angebot auf dem Tisch? Lassen Sie es unabhängig prüfen.“
+  - „Ihre Lastspitzen bestimmen Ihren Strompreis. Wir rechnen nach, was ein Speicher spart.“
+  - „Netzanschluss zu klein? Erst rechnen, dann investieren.“
+- **Zielgruppe:** DE, 30–65, Advantage+ Audience mit Signalen: Geschäftsführer/Inhaber, Produktion, Facility/Energiemanagement, Industrie, Logistik, Lebensmittelverarbeitung, Kühlhäuser
+- **Formular:** Firma, Branche, Stromverbrauch/Jahr (Auswahl: unter 100 MWh / 100–1.000 MWh / über 1.000 MWh), Speicher-Angebot vorhanden ja/nein, Telefon → Formular mit Bestätigungsschritt gegen Spam-Leads
+- **Creatives:** Lastgang-Grafik mit gekappter Spitze; Ingenieur vor Schaltschrank; Karussell „3 Fehler beim Speicherkauf“
 
-### Kampagne M1: Lead Magnet „Batteriespeicher-Wirtschaftlichkeits-Check“ (Ziel: Leads, Instant Form)
-- **Angebot:** kostenloser Kurz-Check: Lastgang hochladen → Einschätzung, ob sich Peak Shaving/Speicher lohnt
-- **Zielgruppe:** DE, 28–60, Interessen: *Energiemanagement, Erneuerbare Energien, Facility Management, Produktion/Fertigung, Mittelstand, Geschäftsführer/Unternehmer* (Detailed Targeting + Advantage+ Audience)
-- **Instant Form:** Firma, Branche, jährlicher Stromverbrauch (Auswahl), Spitzenlast vorhanden ja/nein → „höhere Absicht“-Formular (Bestätigungsschritt) gegen Junk-Leads
-- **Creatives:** Lastgang-Grafik mit gekappter Spitze; Text: „Ihre Leistungsspitzen kosten Sie bis zu X € im Jahr*. Wir rechnen es kostenlos durch.“ (*nur mit belegbarer Zahl)
+### M2 – Lead-Magnet „Energieaudit-Pflicht“ (Ziel: Leads)
+- **Angebot:** Checkliste „Sind Sie audit- oder EMS-pflichtig? (EDL-G/EnEfG)“ als PDF gegen E-Mail
+- **Zielgruppe:** wie M1, Fokus mittelgroße und große Unternehmen
 
-### Kampagne M2: Lead Magnet „Simulation statt Prototyp“ (Ziel: Leads)
-- **Angebot:** Whitepaper/Checkliste „Wann lohnt sich FEM/CFD-Simulation? – 7 Fälle, in denen Simulation Prototypkosten spart“
-- **Zielgruppe:** Interessen *Maschinenbau, Konstruktion, CAD, Produktentwicklung, Ingenieurwesen, Fahrzeugtechnik, Chemietechnik*
-- **Creatives:** Vorher/Nachher-Simulationsbilder (Strömung, Spannungsplot) – **die Visuals sind AKADs stärkstes Asset**, Simulationsbilder fallen im Feed auf
+### M3 – Remarketing (Ziel: Leads)
+- Website-Besucher 180 Tage (alle Leistungen inkl. Simulation), Formular-Öffner ohne Abschluss, Video-Viewer 50 %
+- Creatives: Simulationsbilder (CFD-Strömung, FEM-Spannungsplot), Fallbeispiel, Team-Foto, CTA „Erstgespräch buchen“
 
-### Kampagne M3: Remarketing (Ziel: Leads/Traffic)
-- Custom Audiences: Website-Besucher 180 Tage, Videoviewer 50 %, Instant-Form-Öffner ohne Abschluss
-- Creatives: Case Study, Team/„Menschen. Ideen. Wirkung.“, CTA „Erstgespräch buchen“
-
-### Hinweis
-Für Entscheider im Engineering ist **LinkedIn Ads** meist treffsicherer als Meta (Targeting nach Jobtitel „Leiter Konstruktion“, „Head of R&D“, Branche, Firmengröße). Empfehlung: nach 2–3 Monaten Meta mit LinkedIn testen.
+**Simulation/Konstruktion auf Meta nur im Remarketing.** Für die kalte Ansprache von Ingenieuren und Entwicklungsleitern eignet sich **LinkedIn Ads** besser (Jobtitel „Leiter Konstruktion“, „Head of R&D“, Branche Maschinenbau/Chemie). Empfehlung: Test ab Monat 3.
 
 ---
 
-## 5. Budget & Prognose (konservativ, Schätzung)
+## 6. Budget & Prognose (Schätzung, nicht gemessen)
 
-| Kanal | Budget/Monat | Ø CPC | Klicks | CVR (Annahme) | Leads |
+| Kampagne | Budget/Monat | Ø CPC (Annahme) | Klicks | Conversion-Rate (Annahme) | Anfragen |
 |---|---:|---:|---:|---:|---:|
-| Google Kampagne 1 (Simulation) | 1.200 € | ~6 € | ~200 | 3–5 % | 6–10 |
-| Google Kampagne 2 (Energie) | 500 € | ~9 € | ~55 | 3–5 % | 2–3 |
-| Google Remarketing | 300 € | ~1 € | ~300 | 0,5–1 % | 1–3 |
-| Meta M1 + M2 (Lead Magnets) | 700 € | – | – | CPL 30–70 € | 10–20 (kälter) |
-| Meta Remarketing | 200 € | – | – | – | 1–3 |
-| **Summe** | **≈ 2.900 €** | | | | **≈ 20–40 Leads** |
+| G1 Engineering & Simulation | 1.000 € | 5,50 € | ~180 | 3–5 % | 5–9 |
+| G2 Batteriespeicher & Energie | 700 € | 8,50 € | ~80 | 3–5 % | 2–4 |
+| G3 Remarketing Google | 300 € | 1 € | ~300 | 0,5–1 % | 1–3 |
+| M1 + M2 Meta Lead-Magnets | 700 € | – | – | Kosten pro Lead 35–80 € | 9–20 (kälter) |
+| M3 Meta Remarketing | 200 € | – | – | – | 1–3 |
+| **Summe** | **≈ 2.900 €** | | | | **≈ 18–39** |
 
-**Rechnung dazu:** Ein typisches Simulations- oder Konstruktionsprojekt liegt schnell im fünfstelligen Bereich. Bei 2 % Abschlussquote (Lead → Auftrag) und ~25 Leads wären das 1–2 Aufträge pro Monat. Die Kampagne trägt sich also schon mit **einem gewonnenen Projekt alle 1–2 Monate**.
-
-Testphase: **3 Monate**, Auswertung nach Kosten pro qualifiziertem Lead (nicht nach Klicks).
-
----
-
-## 6. Voraussetzungen auf der Website (vor Kampagnenstart!)
-
-1. **Eigene Landingpage je Anzeigengruppe** (mindestens: CFD, FEM, Konstruktion, Batteriespeicher/Peak Shaving), jeweils mit:
-   - Problem → Lösung → Ablauf in 3 Schritten → Beispielprojekt mit Bild → Formular
-   - Kurzes Formular (Name, Firma, E-Mail, Telefon, „Worum geht es?“, optional Datei-Upload für CAD/Lastgang)
-   - Vertrauenselemente: Referenzen/Logos, Software-Stack (ANSYS, Abaqus, STAR-CCM+ usw. – sofern genutzt), Zertifikate, Ansprechpartner mit Foto
-2. **Mindestens 2–3 Case Studies** (anonymisiert ist ok): Ausgangslage, Simulation, Ergebnis in Zahlen
-3. **Tracking:** GA4 + Google-Ads-Conversion-Tag (Formular-Absendung, Anruf, Klick auf E-Mail), Meta Pixel + Conversions API, Consent-Banner (TCF/Consent Mode v2)
-4. **Rechtliches:** Impressum & Datenschutz erreichbar (`/impressum` liefert derzeit 404), sonst drohen Ablehnungen der Anzeigen und Abmahnungen
-5. **Subdomain `de.akadconsulting.de`** war nicht erreichbar (503) → prüfen
+**Lohnt es sich?** Ingenieurprojekte (Simulation, Machbarkeitsstudie, Speicherplanung) liegen typischerweise im vier- bis fünfstelligen Bereich. Schon **ein gewonnenes Projekt alle 1–2 Monate** deckt das Budget.
+**Testphase:** 3 Monate. Bewertet wird nach Kosten pro *qualifizierter* Anfrage, nicht nach Klicks.
+**Kleiner Einstieg möglich:** Mit ca. 1.200 €/Monat nur G1 (Kern-Keywords) + G2 (nur „Speicher Industrie/Gewerbe“) + Remarketing.
 
 ---
 
-## 7. Fahrplan
+## 7. Voraussetzungen vor Kampagnenstart
 
-| Woche | Schritt |
+1. **Impressum & Datenschutz** erreichbar machen
+2. **5 Landingpages** (DE): Engineering-Dienstleister, FEM-Berechnung, CFD-Simulation, Batteriespeicher Gewerbe/Peak Shaving, Energieaudit. Jede mit:
+   - Problem → Leistung → Ablauf (das vorhandene 6-Schritte-Modell nutzen) → Fallbeispiel mit Bild → Formular direkt auf der Seite
+   - Formular: Name, Firma, E-Mail, Telefon, Anliegen, Datei-Upload (CAD/Lastgang)
+   - Vertrauen: Ansprechpartner mit Foto, Software-Stack, Branchen, ggf. Logos
+3. **2–3 Fallbeispiele** (anonymisiert ist ok) mit Ergebnis in Zahlen
+4. **Tracking:** GA4, Google-Ads-Conversion-Tag (Formular, Anruf, E-Mail-Klick), Meta Pixel + Conversions API, Consent Mode v2
+5. **Lead-Magnets** erstellen: Speicher-Check-Formular, Audit-Pflicht-Checkliste
+
+---
+
+## 8. Fahrplan
+
+| Woche | Aufgabe |
 |---|---|
-| 1 | Landingpages CFD/FEM/Konstruktion + Batteriespeicher, Tracking, Impressum fixen |
-| 2 | Google Kampagne 1 + 2 live, Remarketing-Listen aufbauen |
-| 3 | Lead Magnets erstellen (Check + Whitepaper), Meta M1/M2 live |
-| 4–6 | Suchbegriffe wöchentlich prüfen → Negativ-Keywords ergänzen, schwache Anzeigen pausieren |
-| 6 | Meta Remarketing live (genug Besucher vorhanden) |
-| 8–12 | Auf Ziel-CPA umstellen, Budget in den besten Cluster verschieben, LinkedIn-Test planen |
+| 1–2 | Impressum, Tracking, Landingpages G1 + G2, Fallbeispiele |
+| 3 | Google G1 + G2 live, Remarketing-Listen starten |
+| 4 | Meta M1 + M2 live (Lead-Magnets fertig) |
+| 4–8 | Wöchentlich Suchbegriffe prüfen → Ausschlüsse ergänzen; schwache Anzeigen pausieren |
+| 6 | G3 + M3 Remarketing live |
+| 8–12 | Umstellung auf Ziel-CPA, Budget in den besten Cluster, LinkedIn-Test planen, MENA-Test (arabische Seite) prüfen |
 
 ---
 
-## 8. Ergänzend: SEO (mittelfristig, kostenlos)
+## 9. SEO als Ergänzung (senkt langfristig die Kosten pro Anfrage)
 
-Weil AKAD organisch keine Sichtbarkeit hat, sollten die Landingpages gleichzeitig SEO-optimiert werden. Günstige Themen mit Volumen und wenig Wettbewerb:
-- „Verbundwerkstoffe“ (1.300/Monat) → Ratgeber-Artikel, der zur Composite-Leistung verlinkt
-- „FEM Simulation / FEM Analyse“ (880 + 590) → Fachartikel „Ablauf einer FEM-Analyse“
-- „Strömungssimulation“ (210), „Festigkeitsberechnung“ (110) → Leistungsseiten
-- „Peak Shaving“ (880) → Ratgeber + Rechner
+Die Info-Suchen, die bei Google Ads zu teuer oder zu unspezifisch sind, sind gute SEO-Themen:
 
-Langfristig senkt das die Kosten pro Lead aus Paid Ads.
+| Ratgeber-Thema | Suchen/Monat | Keyword-Schwierigkeit |
+|---|---:|---:|
+| CFD-Simulation – Ablauf, Kosten, Anwendungsfälle | 1.600 | 4–15 (leicht) |
+| FEM-Simulation / FEM-Analyse | 880 + 590 | k. A. |
+| Verbundwerkstoffe – Überblick | 1.300 | k. A. |
+| Peak Shaving / Lastspitzenkappung erklärt | 880 + ~250 | k. A. |
+| Batteriespeicher Industrie – Wirtschaftlichkeit | 260 + 20 | 10 (leicht) |
+| Energieaudit-Pflicht | 90 | k. A. |
 
----
-
-*Hinweis: Die DataForSEO-Credits waren während der Analyse aufgebraucht (HTTP 402). Daher fehlen Konkurrenz-SERP-Analysen und erweiterte Keyword-Ideen; die Volumen- und CPC-Werte oben wurden vorher abgerufen und sind echte Google-Ads-Daten.*
+Jeder Ratgeber verlinkt auf die passende Landingpage. Die Besucher fließen zusätzlich in die Remarketing-Listen.
